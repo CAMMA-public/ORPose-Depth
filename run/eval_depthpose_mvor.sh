@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-# coding: utf-8
-# Author: Vinkle Srivastav (srivastav@unistra.fr)
-# -----
-# Copyright 2018 - (C) Copyright University of Strasbourg, All Rights Reserved.
+# '''
+# Copyright (c) University of Strasbourg. All Rights Reserved.
 # '''
 
 # activate the conda environment

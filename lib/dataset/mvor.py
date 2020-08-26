@@ -1,3 +1,7 @@
+# coding: utf-8
+'''
+Copyright (c) University of Strasbourg. All Rights Reserved.
+'''
 import torch
 import torchvision
 import os

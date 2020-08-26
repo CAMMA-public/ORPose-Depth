@@ -1,3 +1,7 @@
+# coding: utf-8
+'''
+Copyright University of Strasbourg, All Rights Reserved.
+'''
 # Modified from https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation
 
 import os, sys
@@ -605,7 +609,7 @@ def eval_on_lowres_mvor(cfg, test_loader, model, logger, device):
             "thre2": cfg.TEST.POSE_THRESH2,
             "thre3": cfg.TEST.POSE_THRESH3,
         }
-        for img, img_id in tqdm(test_loader, desc="evaluatating depthpose"):
+        for img, img_id in tqdm(test_loader, desc="evaluating depthpose"):
             img = img.to(device)
             orig_paf, orig_heat = get_outputs_sr(img, model, cfg.TEST.SCALE)
             swapped_img = img.flip(3)

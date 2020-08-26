@@ -1,3 +1,6 @@
+'''
+Copyright (c) University of Strasbourg. All Rights Reserved.
+'''
 from collections import OrderedDict
 
 import torch

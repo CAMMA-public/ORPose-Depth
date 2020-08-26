@@ -1,3 +1,8 @@
+# coding: utf-8
+'''
+Copyright (c) University of Strasbourg. All Rights Reserved.
+'''
+
 import os
 from yacs.config import CfgNode as CN
 

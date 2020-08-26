@@ -1,3 +1,7 @@
+# coding: utf-8
+#'''
+#Copyright (c) University of Strasbourg. All Rights Reserved.
+#'''
 GPUS: (0,)
 OUTPUT_DIR: "output/depthpose_64x48"
 LOG_DIR: "output/depthpose_64x48/log"
