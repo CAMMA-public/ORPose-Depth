@@ -1,0 +1,137 @@
+tools/check1.py
+tools/color2depth_gt.py
+tools/eval_ap_coco.py
+tools/eval_ap_mvor.py
+tools/eval_ap.py
+tools/eval_pck_2dpose.py
+tools/eval_pck_mvor.py
+tools/mvor_correct_detections.py
+tools/plot_stats.py
+tools/train_net.py
+tools/viz_lowarea_kps.py
+
+*.avi
+*.mp4
+
+output
+data/*
+models/*
+Output_*
+detections_results_mvor
+.idea
+.vscode
+output/*
+private-repos/super_resolution/model_srresnet.pth
+venvCaffe
+venvCaffe/*
+samples/*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+!data/result_img.jpg
+!data/result_vid.gif
+!data/architecture-depth.png
+!data/.gitkeep
+!data/camma_logo_tr.png
+!models/.gitkeep
+
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/

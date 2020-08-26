@@ -1,0 +1,34 @@
+GPUS: (0,)
+OUTPUT_DIR: "output/depthpose_64x48"
+LOG_DIR: "output/depthpose_64x48/log"
+PRINT_FREQ: 100
+DATASET:
+  NAME: "mvor2018"
+  TRAIN:
+    ROOT_DIR: ""
+    ANNO_FILE: ""
+    BATCH_SIZE: 12
+    SHUFFLE: true
+    WORKERS: 4
+  VAL:
+    ROOT_DIR: ""
+    ANNO_FILE: ""
+    BATCH_SIZE: 1
+    SHUFFLE: false
+    WORKERS: 1
+  TEST:
+    ROOT_DIR: "data/images/MVOR/LR_x10"
+    ANNO_FILE: "data/annotations/mvor_eval_depth_2018.json"
+    BATCH_SIZE: 1 
+    SHUFFLE: false
+    WORKERS: 1
+MODEL:
+  NAME: "depthpose_x10"
+TEST:
+  FLIP_TEST: true
+  POSE_THRESH1: 0.1
+  POSE_THRESH2: 0.05
+  POSE_THRESH3: 0.5
+  SCALE: 10
+  MODEL_FILE: "models/depthpose_64x48.pth"
+  OUTPUT_JSON_FILE: "DepthPose_64x48_results_keypoints_mvor2018.json"
