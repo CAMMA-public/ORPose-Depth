@@ -12,7 +12,7 @@ _Vinkle Srivastav, Afshin Gangi, Nicolas Padoy_
 
 This repository contains the inference demo and evaluation scripts.
 
-[![arXiv](https://img.shields.io/badge/arxiv-2007.08340-red)](https://arxiv.org/abs/2007.08340) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cfGtcZGbJ1odxhegrqObMpfNoqqvnwJE)
+[![arXiv](https://img.shields.io/badge/arxiv-2007.08340-red)](https://arxiv.org/abs/2007.08340) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CAMMA-public/ORPose-Depth/blob/master/orpose_depth_demo.ipynb)
 
 <br/>
 
@@ -79,7 +79,7 @@ If you do not have a suitable environment to run the code, then you can also run
 
 **Try our Colab demo using the notebook we have prepared**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cfGtcZGbJ1odxhegrqObMpfNoqqvnwJE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CAMMA-public/ORPose-Depth/blob/master/orpose_depth_demo.ipynb)
 
 # Citation
 ```bibtex
