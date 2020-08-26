@@ -29,6 +29,7 @@ We propose a multi-person HPE architecture specifically designed for low-resolut
 
 
 ## Installation
+You need to have a [Anaconda3](https://www.anaconda.com/products/individual#linux) installed for the setup
 ```sh
 > sudo apt-get install ffmpeg 
 > ORPose_Depth=/path/to/ORPose_Depth/repository
