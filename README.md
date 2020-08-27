@@ -106,4 +106,4 @@ This code, models, and datasets are available for non-commercial scientific rese
 
 # References
  - Bipartite graph matching code for keypoint-to-person identification is borrowed from [PyTorch_RTPose](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation).
- - Evaluation code is from [MVOR](https://icube-forge.unistra.fr/CAMMA-public/mvor)
+ - Evaluation code is from [MVOR](https://github.com/CAMMA-public/MVOR)
