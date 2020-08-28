@@ -1,3 +1,7 @@
+# coding: utf-8
+'''
+Copyright (c) University of Strasbourg, All Rights Reserved.
+'''
 import cv2
 import numpy as np
 from .eval_pck_2dpose import coco_to_camma
