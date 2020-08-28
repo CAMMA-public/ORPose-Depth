@@ -1,9 +1,6 @@
 # coding: utf-8
 '''
-File: eval_pck_2dpose.py
-Project: CAMMA-MVOR
------
-Copyright 2018 - (C) Copyright University of Strasbourg, All Rights Reserved.
+Copyright (c) University of Strasbourg, All Rights Reserved.
 '''
 
 import json
