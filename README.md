@@ -39,7 +39,7 @@ You need to have a [Anaconda3](https://www.anaconda.com/products/individual#linu
 > conda activate orposedepth_env
 # install dependencies
 # install lateset version of pytorch or choose depending on your cuda environment (needs pytorch > 1.0)
-(orposedepth_env)> conda install pytorch torchvision cudatoolkit=10.2 -c pytorch 
+(orposedepth_env)> conda install pytorch torchvision cudatoolkit=10.1 -c pytorch 
 (orposedepth_env)> conda install -c conda-forge scipy tqdm yacs pycocotools opencv
 (orposedepth_env)> conda install jupyterlab
 (orposedepth_env)> cd lib && make && cd ..
