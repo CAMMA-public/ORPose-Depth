@@ -29,7 +29,7 @@ We propose a multi-person HPE architecture specifically designed for low-resolut
 
 
 ## Installation
-You need to have a [Anaconda3](https://www.anaconda.com/products/individual#linux) installed for the setup. We developed the code on the Ubuntu 16.04, Python 3.7, PyTorch 1.5.1, CUDA 10.1 using the NVIDGeForce GTX 1080 Ti GPU. 
+You need to have a [Anaconda3](https://www.anaconda.com/products/individual#linux) installed for the setup. We developed the code on the Ubuntu 16.04, Python 3.7, PyTorch 1.5.1, CUDA 10.1 using the NVIDIA GeForce GTX 1080 Ti GPU. 
 ```sh
 > sudo apt-get install ffmpeg 
 > ORPose_Depth=/path/to/ORPose_Depth/repository
