@@ -1,4 +1,7 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
+# coding: utf-8
+'''
+Copyright (c) University of Strasbourg, All Rights Reserved.
+'''
 import logging
 import os
 import sys
@@ -11,7 +14,6 @@ def setup_logger(cfg, cfg_name, phase='train'):
     if not root_output_dir.exists():
         print('=> creating {}'.format(root_output_dir))
         os.makedirs(str(root_output_dir), exist_ok=True)
-
     dataset = cfg.DATASET.NAME
     model = cfg.MODEL.NAME
     cfg_name = os.path.basename(cfg_name).split('.')[0]
@@ -20,7 +22,6 @@ def setup_logger(cfg, cfg_name, phase='train'):
 
     print('=> creating {}'.format(final_output_dir))
     final_output_dir.mkdir(parents=True, exist_ok=True)
-
     time_str = time.strftime('%Y-%m-%d-%H-%M')
     log_file = '{}_{}_{}.log'.format(cfg_name, time_str, phase)
     final_log_file = final_output_dir / log_file
@@ -31,7 +32,6 @@ def setup_logger(cfg, cfg_name, phase='train'):
     logger.setLevel(logging.INFO)
     console = logging.StreamHandler()
     logging.getLogger('').addHandler(console)
-
     tensorboard_log_dir = Path(cfg.LOG_DIR) / dataset / model / \
                           (cfg_name + '_' + time_str)
     print('=> creating {}'.format(tensorboard_log_dir))
