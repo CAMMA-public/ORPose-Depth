@@ -8,7 +8,7 @@
 # ORPose-Depth
 **Human Pose Estimation on Privacy-Preserving Low-Resolution Depth Images (MICCAI-2019)**
 
-_Vinkle Srivastav, Afshin Gangi, Nicolas Padoy_
+_[Vinkle Srivastav](https://vinkle.github.io/), Afshin Gangi, Nicolas Padoy_
 
 This repository contains the inference demo and evaluation scripts.
 
